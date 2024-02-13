@@ -1,0 +1,138 @@
+/*
+ Theme Name: Assignment 1
+ Description: backend developer is a skilled programmer who specializes in creating and maintaining the server-side components of web applications. They are proficient in languages like Python, Java, Ruby, PHP, Node.js, and C#, using these to build the logic that powers the application's functionality. Backend developers work with databases, designing schemas, writing queries, and managing data storage efficiently. They also develop APIs, defining endpoints and request/response formats to enable communication between different parts of the application. Security is a top priority for backend developers, who implement authentication and authorization mechanisms to protect sensitive data and address common vulnerabilities. Additionally, they focus on optimizing application performance, writing tests, debugging code, and documenting their work to ensure reliability and maintainability. As technology evolves, backend developers continuously learn and adapt, staying abreast of new tools, frameworks, and best practices to deliver high-quality, scalable solutions.
+ Author: Jagsher
+ Version: 1.0.1
+ Requires PHP: 5.6
+ Tested up to: 6.3
+  
+ Template: popularis
+*/
+
+body {
+    font-size: 20px;
+}
+a, a:active, a:hover, a:focus {
+    color: #ffaa0c;
+    text-decoration: none;
+}
+.widget-title:after {
+    background-color: #FCBC45;
+    bottom: 16px;
+    top: 26px;
+}
+.widget-title h3 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    line-height: 1.6;
+    padding: 8px;
+}
+#site-navigation {
+    background-color: rgb(255 255 255 / 68%);
+    border-bottom: 1px solid rgb(0 0 0 / 4%);
+    z-index: 99;
+    font-weight: 600;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #4d4d4d
+}
+.nav > li.active > a:after, .current-page-parent:after {
+    top: auto;
+    bottom: 0;
+}
+.nav > li.active > a:hover:after, .current-page-parent:hover:after {
+    width: 70%;
+    left: 15%;
+}
+article.blog-article {
+    clear: none;
+}
+h1.site-title a, .site-title a {
+    color: #000;
+}
+.cat-links a:after {
+    content: "/";
+    margin: 0 3px 0 5px;
+    color: initial;
+    letter-spacing: -2px;
+}
+.cat-links a:last-child:after {
+    content: "";
+}
+.single-entry-summary, .cats-tags, .single-head {
+    max-width: 100%;
+}
+.post-item h2 a {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 600;
+}
+article.blog-article:nth-of-type(2n-1) {
+    clear: both;
+}
+.top-bar-section {
+    background-color: #FCBC45;
+}
+.top-bar-section a {
+    color: #000000;
+}
+.news-thumb {
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+    padding: 0;
+}
+.about-author-avatar {
+    float: left;
+    margin-right: 15px;
+}
+li.menu-button-outline a {
+    padding: 10px 15px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-top: 8px;
+    color: #000 !important;
+    margin-left: 10px;
+    font-size: 16px;
+}
+li.menu-button a {
+    padding: 10px 15px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-top: 8px;
+    color: #fff !important;
+    background-color: #000 !important;
+    margin-left: 10px;
+    font-size: 16px;
+}
+li.menu-button-outline:hover, li.menu-button:hover {
+    background-color: transparent !important;
+}
+.cart-contents span.count, .woocommerce span.onsale, .nav > li.active > a:after, .current-page-parent:after, .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus, .woocommerce .widget_price_filter .ui-slider .ui-slider-range, .woocommerce .widget_price_filter .ui-slider .ui-slider-handle {
+    background-color: #FCBC45;
+}
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .btn-default, input[type="submit"], input#submit, button, a.comment-reply-link, .woocommerce div.product .woocommerce-tabs ul.tabs li a, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    color: #FCBC45;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs.wc-tabs li.active a, .woocommerce div.product .woocommerce-tabs ul.tabs.wc-tabs li:hover a {
+    border-bottom: 2px solid #FCBC45;
+    color: #FCBC45;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+    text-align: center;
+}
+@media (max-width: 991px) {
+    .author-avatar {
+        top: auto;
+        bottom: -20px;
+        right: 50%;
+        margin-top: 0;
+        margin-left: -16px;
+    }
+}
+@media (min-width: 768px) {
+.navbar-default .navbar-nav > li:hover {
+        background-color: rgb(252 188 69 / 16%);
+        color: #fff;
+    }
+}
